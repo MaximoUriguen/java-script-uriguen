@@ -1,4 +1,4 @@
-console.log (numeroNueve)
+/*console.log (numeroNueve)
 console.log (numeroOcho)
 let edad = (2023 - 2009) 
 alert ('mi edad es ' + edad ) 
@@ -16,3 +16,21 @@ console.log ('hola ' + nombreAlumno + apellidoAlumno)
  let tres = (3)
  resultadoMultiplicacion = ( diez * tres)
 alert ('el resultado de la multiplicacion es ' + resultadoMultiplicacion)
+
+function calcularPromedio (a,b,c)
+{
+let promedio = a + b + c
+promedio = promedio / 3
+return promedio 
+}
+alert (calcularPromedio(7,8,9))
+calcularPromedio = prompt ('ingrese 3 numeros ')
+ alert (calcularPromedio)
+ /* hacer una funcion que calcula al cubo de  un numero*/ 
+ function calcularAlCubo() 
+ {
+     let numeroElevado = prompt ('ingrse un numero ')
+      return numeroElevado * numeroElevado * numeroElevado
+ }
+
+ alert (calcularAlCubo)

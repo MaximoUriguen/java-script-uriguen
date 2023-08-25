@@ -1,4 +1,6 @@
-/*console.log (numeroNueve)
+ /*let numeroNueve = 9
+ let numeroOcho = 8
+console.log (numeroNueve)
 console.log (numeroOcho)
 let edad = (2023 - 2009) 
 alert ('mi edad es ' + edad ) 
@@ -27,10 +29,42 @@ alert (calcularPromedio(7,8,9))
 calcularPromedio = prompt ('ingrese 3 numeros ')
  alert (calcularPromedio)
  /* hacer una funcion que calcula al cubo de  un numero*/ 
- function calcularAlCubo() 
- {
+ function calcularAlCubo() {
      let numeroElevado = prompt ('ingrse un numero ')
       return numeroElevado * numeroElevado * numeroElevado
  }
 
- alert (calcularAlCubo)
+ alert (calcularAlCubo())
+
+ function multiplicar () {
+let numeroAmultiplicar = prompt ('ingrese dos numeros separados por comas para multiplicar')
+return numeroAmultiplicar * numeroAmultiplicar
+ }
+alert (multiplicar ())
+ function dividir () {
+    let numeroAdividir = prompt ('ingrese dos numeros separados por comas para dividir')
+    return numeroAdividir / numeroAdividir
+     }
+
+     function sumar () {
+        let numeroAsumar = prompt ('ingrese dos numeros separados por comas para sumar')
+        return numeroAsumar + numeroAsumar
+         }
+
+         function restar () {
+            let numeroArestar = prompt ('ingrese dos numeros separados por comas restar')
+            return numeroArestar - numeroArestar
+             }
+
+             /* x^2+5*/
+            function operacion(a, b ) {
+let operation = a^2+5
+            }
+           console.log (operacion  (4))
+             
+
+
+
+
+
+

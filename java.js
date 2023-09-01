@@ -57,7 +57,7 @@ function dividir () {
            return numeroArestar - numeroArestar
             }
 
-            /* x^2+5*/
+            /* x^2+5
 function operacion(a) {
    let operation = a * a + 5
    return operation
@@ -76,6 +76,43 @@ function saludaso (a, b){
    return saludasao 
 }
 alert (saludaso("mixi ", "sidain"))
+ a) x^2-x-10
+  b) (x-3)*2
+  c) x*x^2+20
+  d) (x/2)+5
+  e) x^3+x^2+10
+  f) (x*10)*5
+*/ 
+function cubo (b){
+   return b * b * b 
+}
+function cuadrado (a){
+   return a * a
+}
+function cuenta1 (x){
+ let resultado = cuadrado(x) - x -10
+return  resultado
+}
+function cuenta2 (x){
+ let resultado =  (x-3) * 2
+ return resultado 
+}
+function cuenta3 (x){
+   let resultado = x * cuadrado(x) + 20
+   return resultado 
+}
+function cuenta4 (x){
+   let resultado = (x/2) + 5
+   return resultado  
+}
+function cuenta5 (x) {
+let resultado = cubo(x) + cuadrado(x) + 10 
+return resultado
+}
+function cuenta6 (x) {
+ let resultado =  (x*10)*5
+ return resultado 
+}
 
 
 

@@ -115,7 +115,19 @@ function cuenta6 (x) {
 }
 
 
+let TuPosicion = Number(prompt ('ingresa el numero de tu posicion en el rugby'))
 
-
-
+if (TuPosicion <= 8)
+{
+   alert('sos foward')
+}else {
+   alert ('sos 3/4')
+}
+let carne = Boolean(prompt ('¿tu cuchillo esta afilado? ingresa true o false '))
+if(carne == true)
+{
+   alert ('vas a poder tu asado tranquilo')
+}else {
+   alert ('no vas a poder comer el asado tranquilo, si no sabes como afilarlo segui el tutorial que te dejo https://youtu.be/dULUl59Grtk?feature=shared')
+}
 

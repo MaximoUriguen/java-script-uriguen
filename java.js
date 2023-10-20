@@ -131,3 +131,33 @@ if(carne == true)
    alert ('no vas a poder comer el asado tranquilo, si no sabes como afilarlo segui el tutorial que te dejo https://youtu.be/dULUl59Grtk?feature=shared')
 }
 
+function Mayor (a, b){
+   if (a>b){
+      console.log ('el numero a es mayor al b')
+      
+   }else if (a == b)
+console.log ('son iguales ')
+}else {
+   console.log ('el numero b es mayor al a ')
+}
+
+function determinante (a) {
+   if (a<0){
+      console.log ('tu numeero es negativo ')
+   } else if (a == 0){
+      console.log ('tu numero es cero')
+   } else {
+      console.log ('tu numero es  positivo')
+   }
+
+}
+
+function entrevalores (a){
+   if ((a >= 25) && (a<=255)){
+      return console.log('true')
+   }else{
+      console.log = ('flase')
+   }
+   
+}
+

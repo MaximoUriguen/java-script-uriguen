@@ -29,14 +29,14 @@ else alert ('eres un anciano')
 
 let diaDeLaSemana =  (prompt ('que dia es hoy'))
     function diaLaborable (diaDeLaSemana) {
-        if (diaDeLaSemana = 'martes', 'miercoles', 'lunes', 'jueves' , 'viernes'){
-        alert ('es un dia laborable')
+        if ((diaDeLaSemana == 'sabado') || (diaDeLaSemana == 'sabado')) {
+        alert ('aprovecha a descansar es fin de semana')
     } else {
-        alert ('aprovecha a descansar es fin de semana ')
+        alert ('es un dia laborable   ')
     }}
     let Contraseña =  (prompt ('¿cual es la contraseña?'))
     function password (contraseña) {
-        if (contraseña = 'secreto'){
+        if (contraseña == 'secreto'){
         alert ('acceso consedido')
     } else {
         alert ('acceso denegado')
@@ -55,8 +55,17 @@ if (edadDescuento >= 65 ){
 }
 
 
+    function categorianotas(nota){
+        if (nota < 60){
+        return 'ep'}else if  ( nota <80){
+            return 's'
+        }else {
+            return 'ms'
+        }
+
     
+    } 
 
-
+ilen
 
 
